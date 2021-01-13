@@ -5,10 +5,15 @@ using Microsoft.Extensions.Logging;
 
 namespace Function.App.Service
 {
-    public static class Function1
+    public class CollectingScheduled
     {
-        [FunctionName("Function1")]
-        public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
+        public CollectingScheduled()
+        {
+
+        }
+
+        [FunctionName("Collecting")]
+        public static void Run([TimerTrigger("0 */1 * * * *")]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
         }
