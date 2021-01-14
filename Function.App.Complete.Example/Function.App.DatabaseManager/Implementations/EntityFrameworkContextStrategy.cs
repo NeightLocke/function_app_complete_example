@@ -1,4 +1,4 @@
-﻿using Function.App.Data.DatabaseManager.Interfaces;
+﻿using Function.App.DatabaseManager.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Function.App.Data.DatabaseManager.Implementations
+namespace Function.App.DatabaseManager.Implementations
 {
     public abstract class EntityFrameworkContextStrategy<T> : DbContext, IClientContextStrategy<T> where T : class
     {

@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Function.App.DatabaseManager</AssemblyName>
+    <RootNamespace>Function.App.DatabaseManager</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

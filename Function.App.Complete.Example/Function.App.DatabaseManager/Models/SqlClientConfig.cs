@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Function.App.Data.DatabaseManager.Models
+namespace Function.App.DatabaseManager.Models
 {
     public class SqlClientConfig
     {

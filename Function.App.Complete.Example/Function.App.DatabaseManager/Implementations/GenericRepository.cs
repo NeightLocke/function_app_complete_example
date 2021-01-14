@@ -1,11 +1,11 @@
-﻿using Function.App.Data.DatabaseManager.Interfaces;
+﻿using Function.App.DatabaseManager.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Function.App.Data.DatabaseManager.Implementations
+namespace Function.App.DatabaseManager.Implementations
 {
     public abstract class GenericRepository<T> : IRepository<T> where T : class
     {

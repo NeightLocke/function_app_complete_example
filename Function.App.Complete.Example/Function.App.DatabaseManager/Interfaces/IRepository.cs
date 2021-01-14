@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Function.App.Data.DatabaseManager.Interfaces
+namespace Function.App.DatabaseManager.Interfaces
 {
     public interface IRepository<T>
     {

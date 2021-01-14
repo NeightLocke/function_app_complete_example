@@ -1,5 +1,5 @@
-﻿using Function.App.Data.DatabaseManager.Interfaces;
-using Function.App.Data.DatabaseManager.Models;
+﻿using Function.App.DatabaseManager.Interfaces;
+using Function.App.DatabaseManager.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Function.App.Data.DatabaseManager.Implementations
+namespace Function.App.DatabaseManager.Implementations
 {
     public abstract class SqlClientContextStrategy<T> : IDisposable, IClientContextStrategy<T> where T : class
     {
